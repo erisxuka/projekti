@@ -1,0 +1,61 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#rightside {
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+#navface {
+    border: 0px;
+    width: 24px;
+    height: 24px;
+}
+.over {
+    font-size: 24px;
+    font-weight: 600;
+}
+.melissa {
+     font-size: 18px;
+    color: grey;
+    font-weight: 500;
+}
+body {
+    margin: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+i {
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: 1px;
+}
+.recent {
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.data {
+    color: gray;
+    font-weight: 500;
+}
+#netflix {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#net {
+    display: flex;
+}
+
+#posht {
+    display: block;
+}
+#bill {
+    display: flex;
+    justify-content: space-between;
+}
