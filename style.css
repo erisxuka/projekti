@@ -9,6 +9,7 @@
     font-size: 24px;
     
 }
+
 #navface {
     border: 0px;
     width: 24px;
@@ -48,14 +49,69 @@ i {
     height: 40px;
     border-radius: 50%;
 }
+
+
+
+.done {
+    margin-left: 33px;
+    border: 1px solid blue;
+    height: 20px;
+    width: 45px;
+    color: blue;
+    border-radius: 4px;
+}
+
 #net {
     display: flex;
+    align-items: center; /* Center items vertically */
+    -webkit-box-shadow: 3px 7px 13px 0px rgba(0,0,0,0.08); 
+    box-shadow: 3px 7px 13px 0px rgba(0,0,0,0.08);
+    justify-content: space-between; /* Distribute space evenly */
+   
 }
 
 #posht {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allow it to grow to take available space */
+    margin-left: 10px; /* Adjust margin as needed */
 }
+
 #bill {
     display: flex;
-    justify-content: space-between;
+}
+
+.money {
+    color: red;
+    font-size: 24px;
+    align-self: flex-end; /* Align to the end of the flex container */
+    margin-left: auto; /* Push to the far right */
+}
+#all {
+    width: 20em;
+}
+.flixi {
+    font-weight: 300;
+}
+.bili {
+    color: gray;
+}
+.data2 {
+    margin-top: 40px;
+    color: gray;
+    font-weight: 500;
+}
+.procesi {
+    margin-left: 33px;
+    border: 1px solid #FFBB0B;
+    height: 20px;
+    width: 90px;
+    color: #FFBB0B;
+    border-radius: 4px;
+}
+.moneyy {
+    color: greenyellow;
+    font-size: 24px;
+    align-self: flex-end; /* Align to the end of the flex container */
+    margin-left: auto; /* Push to the far right */
 }
