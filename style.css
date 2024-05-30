@@ -115,3 +115,70 @@ i {
     align-self: flex-end; /* Align to the end of the flex container */
     margin-left: auto; /* Push to the far right */
 }
+#balanca {
+    background-color: #0B69FF;
+    color: white;
+    width: 488px;
+    height: 150px; /* Adjust height as necessary */
+    border-radius: 15px;
+    padding: 20px; /* Add padding for better spacing */
+    display: block; /* Ensuring block display */
+}
+
+#balanca > div {
+    margin-bottom: 20px; /* Adding margin between child divs for spacing */
+}
+
+#exposht, #expenses, #expensess {
+    display: block; /* Ensuring block display */
+    margin-top: 10px; /* Spacing between elements */
+}
+
+#exposht {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.parett {
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.accounti {
+    font-size: 17px;
+    font-weight: 200;
+    margin-left: 50px;
+}
+
+.buttonpare {
+    border: 1px solid white;
+    width: 70px;
+    height: 24px;
+    border-radius: 6px;
+    margin-top: 42px;
+    margin-left: 40px;
+}
+
+#viat {
+    display: flex;
+    align-items: center;
+}
+
+#expenses p, #expensess p {
+    margin: 0; /* Remove default paragraph margin */
+}
+
+#expenses {
+    margin-left: 0; /* Reset margin to align properly */
+    margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+#expensess {
+    color: white;
+}
+#kejtakejta {
+    display: flex;
+    justify-content: space-around;
+}
