@@ -192,6 +192,7 @@ i {
     -webkit-box-shadow: 7px 7px 13px 0px rgba(0,0,0,0.08); 
     box-shadow: 7px 7px 13px 0px rgba(0,0,0,0.08);
     border-radius: 14px;
+    margin-top: 50px;
 }
 #aktivi {
     color: #69C267;
@@ -217,4 +218,11 @@ i {
 }
 #euroo {
     float: right;
+}
+#krejta-i-krejtave {
+    display: flex;
+    justify-content: space-between;
+}
+#ana-krejt-djatht {
+    margin-right: 30px;
 }
